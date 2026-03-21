@@ -1,0 +1,188 @@
+{
+  "source": "p4_face_enhancement",
+  "total_faces_processed": 10,
+  "processing_time_sec": 35.28,
+  "pipeline_stages_applied": [
+    "denoise",
+    "clahe",
+    "upscale_multistep",
+    "zone_sharpen"
+  ],
+  "recognition_accuracy_before_pct": 0.0,
+  "recognition_accuracy_after_pct": 0.0,
+  "avg_sharpness_before": 56.19,
+  "avg_sharpness_after": 1215.79,
+  "avg_ssim_improvement": 0.6791,
+  "per_face": [
+    {
+      "filename": "AARAV.png",
+      "original_size_px": [
+        450,
+        254
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 49.57,
+      "sharpness_after": 1137.81,
+      "ssim_improvement": 0.6715,
+      "match_before": false,
+      "match_after": false,
+      "matched_identity": null
+    },
+    {
+      "filename": "Anamika.png",
+      "original_size_px": [
+        312,
+        266
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 33.41,
+      "sharpness_after": 647.89,
+      "ssim_improvement": 0.7038,
+      "match_before": false,
+      "match_after": false,
+      "matched_identity": null
+    },
+    {
+      "filename": "Harshita.png",
+      "original_size_px": [
+        462,
+        360
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 59.89,
+      "sharpness_after": 2289.54,
+      "ssim_improvement": 0.7019,
+      "match_before": false,
+      "match_after": false,
+      "matched_identity": null
+    },
+    {
+      "filename": "Jahanvi.png",
+      "original_size_px": [
+        320,
+        304
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 82.86,
+      "sharpness_after": 1085.87,
+      "ssim_improvement": 0.6848,
+      "match_before": false,
+      "match_after": false,
+      "matched_identity": null
+    },
+    {
+      "filename": "Manav.png",
+      "original_size_px": [
+        562,
+        318
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 39.69,
+      "sharpness_after": 1450.04,
+      "ssim_improvement": 0.5647,
+      "match_before": false,
+      "match_after": false,
+      "matched_identity": null
+    },
+    {
+      "filename": "Mohini.png",
+      "original_size_px": [
+        488,
+        266
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 68.34,
+      "sharpness_after": 1382.14,
+      "ssim_improvement": 0.6907,
+      "match_before": false,
+      "match_after": false,
+      "matched_identity": null
+    },
+    {
+      "filename": "Ranjhana.png",
+      "original_size_px": [
+        312,
+        222
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 35.58,
+      "sharpness_after": 525.34,
+      "ssim_improvement": 0.7574,
+      "match_before": false,
+      "match_after": false,
+      "matched_identity": null
+    },
+    {
+      "filename": "Rohini.png",
+      "original_size_px": [
+        284,
+        266
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 51.53,
+      "sharpness_after": 793.08,
+      "ssim_improvement": 0.6009,
+      "match_before": false,
+      "match_after": false,
+      "matched_identity": null
+    },
+    {
+      "filename": "Sparshita.png",
+      "original_size_px": [
+        530,
+        348
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 74.07,
+      "sharpness_after": 2220.37,
+      "ssim_improvement": 0.807,
+      "match_before": false,
+      "match_after": false,
+      "matched_identity": null
+    },
+    {
+      "filename": "Sushmita.png",
+      "original_size_px": [
+        348,
+        172
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 66.93,
+      "sharpness_after": 625.81,
+      "ssim_improvement": 0.6085,
+      "match_before": false,
+      "match_after": false,
+      "matched_identity": null
+    }
+  ]
+}

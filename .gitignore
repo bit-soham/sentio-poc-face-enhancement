@@ -1,0 +1,12 @@
+# Environment
+.env
+venv/
+__pycache__/
+*.pyc
+
+# raw faces
+raw_faces/
+
+# IDE
+.vscode/
+.idea/
