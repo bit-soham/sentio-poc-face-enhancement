@@ -6,7 +6,11 @@ __pycache__/
 
 # raw faces
 raw_faces/
+#extract faces
+extract_faces.py
 
+# video
+video/
 # IDE
 .vscode/
 .idea/

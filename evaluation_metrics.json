@@ -1,188 +1,1718 @@
 {
   "source": "p4_face_enhancement",
-  "total_faces_processed": 10,
-  "processing_time_sec": 35.28,
+  "total_faces_processed": 100,
+  "processing_time_sec": 22.93,
   "pipeline_stages_applied": [
     "denoise",
     "clahe",
     "upscale_multistep",
     "zone_sharpen"
   ],
-  "recognition_accuracy_before_pct": 0.0,
-  "recognition_accuracy_after_pct": 0.0,
-  "avg_sharpness_before": 56.19,
-  "avg_sharpness_after": 1215.79,
-  "avg_ssim_improvement": 0.6791,
+  "recognition_accuracy_before_pct": 77.0,
+  "recognition_accuracy_after_pct": 86.0,
+  "avg_sharpness_before": 125.78,
+  "avg_sharpness_after": 45.06,
+  "avg_ssim_improvement": 0.683,
   "per_face": [
     {
-      "filename": "AARAV.png",
+      "filename": "face_000000_01.jpg",
       "original_size_px": [
-        450,
-        254
+        70,
+        70
       ],
       "enhanced_size_px": [
         240,
         240
       ],
-      "sharpness_before": 49.57,
-      "sharpness_after": 1137.81,
-      "ssim_improvement": 0.6715,
+      "sharpness_before": 192.03,
+      "sharpness_after": 17.55,
+      "ssim_improvement": 0.7372,
       "match_before": false,
-      "match_after": false,
-      "matched_identity": null
+      "match_after": true,
+      "matched_identity": "Mohini"
     },
     {
-      "filename": "Anamika.png",
+      "filename": "face_000120_01.jpg",
       "original_size_px": [
-        312,
-        266
+        96,
+        96
       ],
       "enhanced_size_px": [
         240,
         240
       ],
-      "sharpness_before": 33.41,
-      "sharpness_after": 647.89,
-      "ssim_improvement": 0.7038,
-      "match_before": false,
-      "match_after": false,
-      "matched_identity": null
+      "sharpness_before": 55.34,
+      "sharpness_after": 22.77,
+      "ssim_improvement": 0.659,
+      "match_before": true,
+      "match_after": true,
+      "matched_identity": "AARAV"
     },
     {
-      "filename": "Harshita.png",
+      "filename": "face_000120_02.jpg",
       "original_size_px": [
-        462,
-        360
+        105,
+        105
       ],
       "enhanced_size_px": [
         240,
         240
       ],
-      "sharpness_before": 59.89,
-      "sharpness_after": 2289.54,
-      "ssim_improvement": 0.7019,
-      "match_before": false,
-      "match_after": false,
-      "matched_identity": null
+      "sharpness_before": 91.03,
+      "sharpness_after": 48.29,
+      "ssim_improvement": 0.6701,
+      "match_before": true,
+      "match_after": true,
+      "matched_identity": "Harshita"
     },
     {
-      "filename": "Jahanvi.png",
+      "filename": "face_000120_03.jpg",
       "original_size_px": [
-        320,
-        304
+        110,
+        110
       ],
       "enhanced_size_px": [
         240,
         240
       ],
-      "sharpness_before": 82.86,
-      "sharpness_after": 1085.87,
-      "ssim_improvement": 0.6848,
-      "match_before": false,
-      "match_after": false,
-      "matched_identity": null
+      "sharpness_before": 63.87,
+      "sharpness_after": 39.58,
+      "ssim_improvement": 0.6412,
+      "match_before": true,
+      "match_after": true,
+      "matched_identity": "AARAV"
     },
     {
-      "filename": "Manav.png",
+      "filename": "face_000240_00.jpg",
       "original_size_px": [
-        562,
-        318
+        81,
+        81
       ],
       "enhanced_size_px": [
         240,
         240
       ],
-      "sharpness_before": 39.69,
-      "sharpness_after": 1450.04,
-      "ssim_improvement": 0.5647,
-      "match_before": false,
-      "match_after": false,
-      "matched_identity": null
+      "sharpness_before": 84.46,
+      "sharpness_after": 15.38,
+      "ssim_improvement": 0.7786,
+      "match_before": true,
+      "match_after": true,
+      "matched_identity": "Jahanvi"
     },
     {
-      "filename": "Mohini.png",
+      "filename": "face_000240_02.jpg",
       "original_size_px": [
-        488,
-        266
+        96,
+        96
       ],
       "enhanced_size_px": [
         240,
         240
       ],
-      "sharpness_before": 68.34,
-      "sharpness_after": 1382.14,
-      "ssim_improvement": 0.6907,
-      "match_before": false,
-      "match_after": false,
-      "matched_identity": null
+      "sharpness_before": 62.69,
+      "sharpness_after": 25.73,
+      "ssim_improvement": 0.6547,
+      "match_before": true,
+      "match_after": true,
+      "matched_identity": "AARAV"
     },
     {
-      "filename": "Ranjhana.png",
+      "filename": "face_000360_01.jpg",
       "original_size_px": [
-        312,
-        222
+        82,
+        82
       ],
       "enhanced_size_px": [
         240,
         240
       ],
-      "sharpness_before": 35.58,
-      "sharpness_after": 525.34,
-      "ssim_improvement": 0.7574,
-      "match_before": false,
-      "match_after": false,
-      "matched_identity": null
+      "sharpness_before": 134.82,
+      "sharpness_after": 28.2,
+      "ssim_improvement": 0.6338,
+      "match_before": true,
+      "match_after": true,
+      "matched_identity": "Sushmita"
     },
     {
-      "filename": "Rohini.png",
+      "filename": "face_000480_01.jpg",
       "original_size_px": [
-        284,
-        266
+        80,
+        80
       ],
       "enhanced_size_px": [
         240,
         240
       ],
-      "sharpness_before": 51.53,
-      "sharpness_after": 793.08,
-      "ssim_improvement": 0.6009,
-      "match_before": false,
-      "match_after": false,
-      "matched_identity": null
-    },
-    {
-      "filename": "Sparshita.png",
-      "original_size_px": [
-        530,
-        348
-      ],
-      "enhanced_size_px": [
-        240,
-        240
-      ],
-      "sharpness_before": 74.07,
-      "sharpness_after": 2220.37,
+      "sharpness_before": 494.85,
+      "sharpness_after": 35.71,
       "ssim_improvement": 0.807,
-      "match_before": false,
-      "match_after": false,
-      "matched_identity": null
+      "match_before": true,
+      "match_after": true,
+      "matched_identity": "AARAV"
     },
     {
-      "filename": "Sushmita.png",
+      "filename": "face_000480_02.jpg",
       "original_size_px": [
-        348,
-        172
+        66,
+        66
       ],
       "enhanced_size_px": [
         240,
         240
       ],
-      "sharpness_before": 66.93,
-      "sharpness_after": 625.81,
-      "ssim_improvement": 0.6085,
+      "sharpness_before": 101.12,
+      "sharpness_after": 11.01,
+      "ssim_improvement": 0.7568,
+      "match_before": false,
+      "match_after": true,
+      "matched_identity": "Ranjhana"
+    },
+    {
+      "filename": "face_000480_06.jpg",
+      "original_size_px": [
+        81,
+        80
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 65.34,
+      "sharpness_after": 14.23,
+      "ssim_improvement": 0.6541,
+      "match_before": true,
+      "match_after": true,
+      "matched_identity": "Mohini"
+    },
+    {
+      "filename": "face_000480_07.jpg",
+      "original_size_px": [
+        96,
+        97
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 52.1,
+      "sharpness_after": 20.68,
+      "ssim_improvement": 0.6508,
+      "match_before": true,
+      "match_after": true,
+      "matched_identity": "Manav"
+    },
+    {
+      "filename": "face_000600_00.jpg",
+      "original_size_px": [
+        93,
+        93
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 34.97,
+      "sharpness_after": 16.38,
+      "ssim_improvement": 0.6669,
+      "match_before": true,
+      "match_after": true,
+      "matched_identity": "Harshita"
+    },
+    {
+      "filename": "face_000600_01.jpg",
+      "original_size_px": [
+        98,
+        98
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 70.4,
+      "sharpness_after": 31.39,
+      "ssim_improvement": 0.6307,
+      "match_before": true,
+      "match_after": true,
+      "matched_identity": "Mohini"
+    },
+    {
+      "filename": "face_000720_00.jpg",
+      "original_size_px": [
+        81,
+        81
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 100.75,
+      "sharpness_after": 19.67,
+      "ssim_improvement": 0.7635,
+      "match_before": true,
+      "match_after": true,
+      "matched_identity": "Mohini"
+    },
+    {
+      "filename": "face_000720_02.jpg",
+      "original_size_px": [
+        104,
+        104
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 85.0,
+      "sharpness_after": 43.08,
+      "ssim_improvement": 0.6134,
+      "match_before": true,
+      "match_after": true,
+      "matched_identity": "Mohini"
+    },
+    {
+      "filename": "face_000840_00.jpg",
+      "original_size_px": [
+        73,
+        73
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 30.91,
+      "sharpness_after": 9.44,
+      "ssim_improvement": 0.7632,
       "match_before": false,
       "match_after": false,
       "matched_identity": null
+    },
+    {
+      "filename": "face_000840_01.jpg",
+      "original_size_px": [
+        72,
+        72
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 88.83,
+      "sharpness_after": 12.05,
+      "ssim_improvement": 0.7201,
+      "match_before": true,
+      "match_after": true,
+      "matched_identity": "Ranjhana"
+    },
+    {
+      "filename": "face_001200_00.jpg",
+      "original_size_px": [
+        88,
+        88
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 97.32,
+      "sharpness_after": 28.34,
+      "ssim_improvement": 0.6238,
+      "match_before": true,
+      "match_after": true,
+      "matched_identity": "Harshita"
+    },
+    {
+      "filename": "face_001320_02.jpg",
+      "original_size_px": [
+        116,
+        116
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 130.53,
+      "sharpness_after": 78.81,
+      "ssim_improvement": 0.6552,
+      "match_before": false,
+      "match_after": true,
+      "matched_identity": "AARAV"
+    },
+    {
+      "filename": "face_001440_01.jpg",
+      "original_size_px": [
+        110,
+        110
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 135.37,
+      "sharpness_after": 56.07,
+      "ssim_improvement": 0.6039,
+      "match_before": true,
+      "match_after": true,
+      "matched_identity": "AARAV"
+    },
+    {
+      "filename": "face_001440_03.jpg",
+      "original_size_px": [
+        99,
+        99
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 109.3,
+      "sharpness_after": 44.21,
+      "ssim_improvement": 0.6436,
+      "match_before": true,
+      "match_after": true,
+      "matched_identity": "Ranjhana"
+    },
+    {
+      "filename": "face_001440_04.jpg",
+      "original_size_px": [
+        72,
+        72
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 69.43,
+      "sharpness_after": 11.29,
+      "ssim_improvement": 0.692,
+      "match_before": true,
+      "match_after": false,
+      "matched_identity": null
+    },
+    {
+      "filename": "face_001440_05.jpg",
+      "original_size_px": [
+        126,
+        126
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 61.39,
+      "sharpness_after": 58.57,
+      "ssim_improvement": 0.5686,
+      "match_before": true,
+      "match_after": true,
+      "matched_identity": "AARAV"
+    },
+    {
+      "filename": "face_001800_00.jpg",
+      "original_size_px": [
+        88,
+        88
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 85.42,
+      "sharpness_after": 26.6,
+      "ssim_improvement": 0.6321,
+      "match_before": true,
+      "match_after": true,
+      "matched_identity": "Mohini"
+    },
+    {
+      "filename": "face_001920_00.jpg",
+      "original_size_px": [
+        133,
+        133
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 311.87,
+      "sharpness_after": 238.06,
+      "ssim_improvement": 0.6909,
+      "match_before": true,
+      "match_after": true,
+      "matched_identity": "Anamika"
+    },
+    {
+      "filename": "face_001920_01.jpg",
+      "original_size_px": [
+        106,
+        106
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 164.06,
+      "sharpness_after": 64.53,
+      "ssim_improvement": 0.6558,
+      "match_before": true,
+      "match_after": true,
+      "matched_identity": "AARAV"
+    },
+    {
+      "filename": "face_002040_01.jpg",
+      "original_size_px": [
+        91,
+        91
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 42.48,
+      "sharpness_after": 20.2,
+      "ssim_improvement": 0.6442,
+      "match_before": true,
+      "match_after": true,
+      "matched_identity": "Ranjhana"
+    },
+    {
+      "filename": "face_002040_02.jpg",
+      "original_size_px": [
+        124,
+        124
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 139.11,
+      "sharpness_after": 117.59,
+      "ssim_improvement": 0.6438,
+      "match_before": true,
+      "match_after": true,
+      "matched_identity": "AARAV"
+    },
+    {
+      "filename": "face_002160_01.jpg",
+      "original_size_px": [
+        99,
+        99
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 77.52,
+      "sharpness_after": 31.13,
+      "ssim_improvement": 0.6793,
+      "match_before": true,
+      "match_after": true,
+      "matched_identity": "AARAV"
+    },
+    {
+      "filename": "face_002520_00.jpg",
+      "original_size_px": [
+        83,
+        83
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 129.71,
+      "sharpness_after": 29.34,
+      "ssim_improvement": 0.627,
+      "match_before": true,
+      "match_after": true,
+      "matched_identity": "Mohini"
+    },
+    {
+      "filename": "face_002520_01.jpg",
+      "original_size_px": [
+        98,
+        98
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 155.58,
+      "sharpness_after": 42.98,
+      "ssim_improvement": 0.646,
+      "match_before": true,
+      "match_after": true,
+      "matched_identity": "Anamika"
+    },
+    {
+      "filename": "face_002520_02.jpg",
+      "original_size_px": [
+        71,
+        71
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 79.19,
+      "sharpness_after": 12.78,
+      "ssim_improvement": 0.676,
+      "match_before": false,
+      "match_after": false,
+      "matched_identity": null
+    },
+    {
+      "filename": "face_002640_01.jpg",
+      "original_size_px": [
+        104,
+        104
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 168.61,
+      "sharpness_after": 56.63,
+      "ssim_improvement": 0.6378,
+      "match_before": true,
+      "match_after": true,
+      "matched_identity": "Anamika"
+    },
+    {
+      "filename": "face_002880_00.jpg",
+      "original_size_px": [
+        84,
+        84
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 167.46,
+      "sharpness_after": 33.35,
+      "ssim_improvement": 0.6431,
+      "match_before": true,
+      "match_after": true,
+      "matched_identity": "Harshita"
+    },
+    {
+      "filename": "face_002880_01.jpg",
+      "original_size_px": [
+        109,
+        109
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 76.0,
+      "sharpness_after": 44.57,
+      "ssim_improvement": 0.6528,
+      "match_before": true,
+      "match_after": true,
+      "matched_identity": "AARAV"
+    },
+    {
+      "filename": "face_003120_04.jpg",
+      "original_size_px": [
+        109,
+        109
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 60.92,
+      "sharpness_after": 42.82,
+      "ssim_improvement": 0.6458,
+      "match_before": true,
+      "match_after": true,
+      "matched_identity": "Jahanvi"
+    },
+    {
+      "filename": "face_003240_01.jpg",
+      "original_size_px": [
+        87,
+        87
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 161.88,
+      "sharpness_after": 36.71,
+      "ssim_improvement": 0.6323,
+      "match_before": true,
+      "match_after": true,
+      "matched_identity": "Mohini"
+    },
+    {
+      "filename": "face_003360_00.jpg",
+      "original_size_px": [
+        82,
+        82
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 98.37,
+      "sharpness_after": 20.57,
+      "ssim_improvement": 0.6997,
+      "match_before": false,
+      "match_after": false,
+      "matched_identity": null
+    },
+    {
+      "filename": "face_003480_00.jpg",
+      "original_size_px": [
+        97,
+        97
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 73.41,
+      "sharpness_after": 31.91,
+      "ssim_improvement": 0.6707,
+      "match_before": true,
+      "match_after": true,
+      "matched_identity": "Jahanvi"
+    },
+    {
+      "filename": "face_003600_01.jpg",
+      "original_size_px": [
+        87,
+        87
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 103.37,
+      "sharpness_after": 25.22,
+      "ssim_improvement": 0.686,
+      "match_before": false,
+      "match_after": true,
+      "matched_identity": "AARAV"
+    },
+    {
+      "filename": "face_003840_03.jpg",
+      "original_size_px": [
+        80,
+        80
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 241.64,
+      "sharpness_after": 30.96,
+      "ssim_improvement": 0.6927,
+      "match_before": true,
+      "match_after": true,
+      "matched_identity": "AARAV"
+    },
+    {
+      "filename": "face_003840_07.jpg",
+      "original_size_px": [
+        66,
+        66
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 52.79,
+      "sharpness_after": 9.93,
+      "ssim_improvement": 0.7248,
+      "match_before": true,
+      "match_after": false,
+      "matched_identity": null
+    },
+    {
+      "filename": "face_003840_08.jpg",
+      "original_size_px": [
+        80,
+        80
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 70.59,
+      "sharpness_after": 16.41,
+      "ssim_improvement": 0.6415,
+      "match_before": true,
+      "match_after": true,
+      "matched_identity": "Jahanvi"
+    },
+    {
+      "filename": "face_003840_10.jpg",
+      "original_size_px": [
+        66,
+        66
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 75.46,
+      "sharpness_after": 10.9,
+      "ssim_improvement": 0.7117,
+      "match_before": false,
+      "match_after": false,
+      "matched_identity": null
+    },
+    {
+      "filename": "face_003840_13.jpg",
+      "original_size_px": [
+        97,
+        97
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 186.41,
+      "sharpness_after": 41.98,
+      "ssim_improvement": 0.6396,
+      "match_before": false,
+      "match_after": true,
+      "matched_identity": "Jahanvi"
+    },
+    {
+      "filename": "face_003840_14.jpg",
+      "original_size_px": [
+        56,
+        55
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 153.01,
+      "sharpness_after": 21.88,
+      "ssim_improvement": 0.6628,
+      "match_before": true,
+      "match_after": true,
+      "matched_identity": "Rohini"
+    },
+    {
+      "filename": "face_003840_15.jpg",
+      "original_size_px": [
+        96,
+        97
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 91.36,
+      "sharpness_after": 28.0,
+      "ssim_improvement": 0.6479,
+      "match_before": true,
+      "match_after": true,
+      "matched_identity": "Ranjhana"
+    },
+    {
+      "filename": "face_003840_16.jpg",
+      "original_size_px": [
+        55,
+        55
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 319.84,
+      "sharpness_after": 27.36,
+      "ssim_improvement": 0.6535,
+      "match_before": true,
+      "match_after": false,
+      "matched_identity": null
+    },
+    {
+      "filename": "face_003960_03.jpg",
+      "original_size_px": [
+        78,
+        78
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 135.0,
+      "sharpness_after": 19.04,
+      "ssim_improvement": 0.6956,
+      "match_before": true,
+      "match_after": true,
+      "matched_identity": "Harshita"
+    },
+    {
+      "filename": "face_003960_04.jpg",
+      "original_size_px": [
+        99,
+        99
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 142.45,
+      "sharpness_after": 60.32,
+      "ssim_improvement": 0.6742,
+      "match_before": true,
+      "match_after": true,
+      "matched_identity": "AARAV"
+    },
+    {
+      "filename": "face_004080_00.jpg",
+      "original_size_px": [
+        87,
+        87
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 163.69,
+      "sharpness_after": 36.09,
+      "ssim_improvement": 0.6447,
+      "match_before": true,
+      "match_after": true,
+      "matched_identity": "Harshita"
+    },
+    {
+      "filename": "face_004080_02.jpg",
+      "original_size_px": [
+        125,
+        125
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 38.34,
+      "sharpness_after": 49.31,
+      "ssim_improvement": 0.6201,
+      "match_before": true,
+      "match_after": false,
+      "matched_identity": null
+    },
+    {
+      "filename": "face_004080_04.jpg",
+      "original_size_px": [
+        74,
+        74
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 145.6,
+      "sharpness_after": 14.77,
+      "ssim_improvement": 0.726,
+      "match_before": true,
+      "match_after": true,
+      "matched_identity": "Harshita"
+    },
+    {
+      "filename": "face_004200_02.jpg",
+      "original_size_px": [
+        136,
+        136
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 297.03,
+      "sharpness_after": 252.99,
+      "ssim_improvement": 0.7131,
+      "match_before": true,
+      "match_after": true,
+      "matched_identity": "Mohini"
+    },
+    {
+      "filename": "face_004200_04.jpg",
+      "original_size_px": [
+        72,
+        72
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 64.94,
+      "sharpness_after": 12.84,
+      "ssim_improvement": 0.7236,
+      "match_before": false,
+      "match_after": true,
+      "matched_identity": "Mohini"
+    },
+    {
+      "filename": "face_004320_07.jpg",
+      "original_size_px": [
+        79,
+        79
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 148.93,
+      "sharpness_after": 21.46,
+      "ssim_improvement": 0.6532,
+      "match_before": false,
+      "match_after": true,
+      "matched_identity": "Sparshita"
+    },
+    {
+      "filename": "face_004320_09.jpg",
+      "original_size_px": [
+        115,
+        115
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 187.7,
+      "sharpness_after": 105.93,
+      "ssim_improvement": 0.6385,
+      "match_before": true,
+      "match_after": true,
+      "matched_identity": "AARAV"
+    },
+    {
+      "filename": "face_004440_00.jpg",
+      "original_size_px": [
+        83,
+        83
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 54.46,
+      "sharpness_after": 17.0,
+      "ssim_improvement": 0.6797,
+      "match_before": true,
+      "match_after": true,
+      "matched_identity": "Ranjhana"
+    },
+    {
+      "filename": "face_004440_05.jpg",
+      "original_size_px": [
+        100,
+        100
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 89.7,
+      "sharpness_after": 36.9,
+      "ssim_improvement": 0.5582,
+      "match_before": true,
+      "match_after": true,
+      "matched_identity": "AARAV"
+    },
+    {
+      "filename": "face_004440_06.jpg",
+      "original_size_px": [
+        114,
+        114
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 158.7,
+      "sharpness_after": 89.55,
+      "ssim_improvement": 0.6109,
+      "match_before": true,
+      "match_after": true,
+      "matched_identity": "AARAV"
+    },
+    {
+      "filename": "face_004560_02.jpg",
+      "original_size_px": [
+        104,
+        104
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 152.51,
+      "sharpness_after": 60.73,
+      "ssim_improvement": 0.6041,
+      "match_before": true,
+      "match_after": true,
+      "matched_identity": "Anamika"
+    },
+    {
+      "filename": "face_004560_07.jpg",
+      "original_size_px": [
+        72,
+        72
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 47.99,
+      "sharpness_after": 10.56,
+      "ssim_improvement": 0.7092,
+      "match_before": true,
+      "match_after": false,
+      "matched_identity": null
+    },
+    {
+      "filename": "face_004680_04.jpg",
+      "original_size_px": [
+        106,
+        106
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 109.43,
+      "sharpness_after": 48.37,
+      "ssim_improvement": 0.6439,
+      "match_before": true,
+      "match_after": true,
+      "matched_identity": "Mohini"
+    },
+    {
+      "filename": "face_004680_05.jpg",
+      "original_size_px": [
+        73,
+        73
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 37.55,
+      "sharpness_after": 11.33,
+      "ssim_improvement": 0.7325,
+      "match_before": false,
+      "match_after": true,
+      "matched_identity": "Ranjhana"
+    },
+    {
+      "filename": "face_004920_00.jpg",
+      "original_size_px": [
+        81,
+        81
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 94.27,
+      "sharpness_after": 20.57,
+      "ssim_improvement": 0.6783,
+      "match_before": true,
+      "match_after": true,
+      "matched_identity": "Anamika"
+    },
+    {
+      "filename": "face_005040_01.jpg",
+      "original_size_px": [
+        82,
+        82
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 122.47,
+      "sharpness_after": 26.18,
+      "ssim_improvement": 0.6832,
+      "match_before": true,
+      "match_after": true,
+      "matched_identity": "AARAV"
+    },
+    {
+      "filename": "face_005160_00.jpg",
+      "original_size_px": [
+        127,
+        127
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 207.67,
+      "sharpness_after": 159.89,
+      "ssim_improvement": 0.7096,
+      "match_before": true,
+      "match_after": true,
+      "matched_identity": "Anamika"
+    },
+    {
+      "filename": "face_005400_02.jpg",
+      "original_size_px": [
+        133,
+        133
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 215.91,
+      "sharpness_after": 198.46,
+      "ssim_improvement": 0.7162,
+      "match_before": false,
+      "match_after": true,
+      "matched_identity": "Anamika"
+    },
+    {
+      "filename": "face_005400_03.jpg",
+      "original_size_px": [
+        70,
+        70
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 21.78,
+      "sharpness_after": 9.96,
+      "ssim_improvement": 0.7121,
+      "match_before": false,
+      "match_after": false,
+      "matched_identity": null
+    },
+    {
+      "filename": "face_005400_04.jpg",
+      "original_size_px": [
+        162,
+        162
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 203.49,
+      "sharpness_after": 462.05,
+      "ssim_improvement": 0.7191,
+      "match_before": true,
+      "match_after": true,
+      "matched_identity": "AARAV"
+    },
+    {
+      "filename": "face_005520_01.jpg",
+      "original_size_px": [
+        110,
+        110
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 90.68,
+      "sharpness_after": 49.35,
+      "ssim_improvement": 0.5926,
+      "match_before": true,
+      "match_after": true,
+      "matched_identity": "Rohini"
+    },
+    {
+      "filename": "face_005640_04.jpg",
+      "original_size_px": [
+        66,
+        66
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 287.08,
+      "sharpness_after": 14.12,
+      "ssim_improvement": 0.771,
+      "match_before": true,
+      "match_after": false,
+      "matched_identity": null
+    },
+    {
+      "filename": "face_005640_05.jpg",
+      "original_size_px": [
+        66,
+        66
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 162.14,
+      "sharpness_after": 13.77,
+      "ssim_improvement": 0.7268,
+      "match_before": true,
+      "match_after": true,
+      "matched_identity": "Mohini"
+    },
+    {
+      "filename": "face_005640_07.jpg",
+      "original_size_px": [
+        80,
+        80
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 77.57,
+      "sharpness_after": 15.68,
+      "ssim_improvement": 0.6897,
+      "match_before": true,
+      "match_after": true,
+      "matched_identity": "Harshita"
+    },
+    {
+      "filename": "face_005640_09.jpg",
+      "original_size_px": [
+        65,
+        66
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 203.16,
+      "sharpness_after": 12.11,
+      "ssim_improvement": 0.7567,
+      "match_before": false,
+      "match_after": true,
+      "matched_identity": "Ranjhana"
+    },
+    {
+      "filename": "face_005640_10.jpg",
+      "original_size_px": [
+        66,
+        66
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 158.51,
+      "sharpness_after": 11.81,
+      "ssim_improvement": 0.7529,
+      "match_before": false,
+      "match_after": true,
+      "matched_identity": "AARAV"
+    },
+    {
+      "filename": "face_005880_01.jpg",
+      "original_size_px": [
+        97,
+        96
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 118.88,
+      "sharpness_after": 35.62,
+      "ssim_improvement": 0.6834,
+      "match_before": true,
+      "match_after": true,
+      "matched_identity": "Ranjhana"
+    },
+    {
+      "filename": "face_005880_06.jpg",
+      "original_size_px": [
+        55,
+        55
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 298.86,
+      "sharpness_after": 25.3,
+      "ssim_improvement": 0.6884,
+      "match_before": false,
+      "match_after": true,
+      "matched_identity": "AARAV"
+    },
+    {
+      "filename": "face_005880_07.jpg",
+      "original_size_px": [
+        66,
+        66
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 113.56,
+      "sharpness_after": 11.1,
+      "ssim_improvement": 0.7729,
+      "match_before": false,
+      "match_after": true,
+      "matched_identity": "AARAV"
+    },
+    {
+      "filename": "face_005880_08.jpg",
+      "original_size_px": [
+        116,
+        115
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 274.31,
+      "sharpness_after": 137.05,
+      "ssim_improvement": 0.7496,
+      "match_before": false,
+      "match_after": true,
+      "matched_identity": "AARAV"
+    },
+    {
+      "filename": "face_006000_00.jpg",
+      "original_size_px": [
+        83,
+        83
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 115.81,
+      "sharpness_after": 23.2,
+      "ssim_improvement": 0.765,
+      "match_before": true,
+      "match_after": true,
+      "matched_identity": "Manav"
+    },
+    {
+      "filename": "face_006000_01.jpg",
+      "original_size_px": [
+        115,
+        115
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 102.94,
+      "sharpness_after": 55.7,
+      "ssim_improvement": 0.6609,
+      "match_before": true,
+      "match_after": true,
+      "matched_identity": "Harshita"
+    },
+    {
+      "filename": "face_006000_03.jpg",
+      "original_size_px": [
+        70,
+        70
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 42.46,
+      "sharpness_after": 10.9,
+      "ssim_improvement": 0.7445,
+      "match_before": false,
+      "match_after": false,
+      "matched_identity": null
+    },
+    {
+      "filename": "face_006000_04.jpg",
+      "original_size_px": [
+        104,
+        104
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 128.9,
+      "sharpness_after": 61.49,
+      "ssim_improvement": 0.6092,
+      "match_before": true,
+      "match_after": true,
+      "matched_identity": "Anamika"
+    },
+    {
+      "filename": "face_006120_00.jpg",
+      "original_size_px": [
+        70,
+        70
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 53.86,
+      "sharpness_after": 12.49,
+      "ssim_improvement": 0.7287,
+      "match_before": false,
+      "match_after": false,
+      "matched_identity": null
+    },
+    {
+      "filename": "face_006120_01.jpg",
+      "original_size_px": [
+        100,
+        100
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 127.0,
+      "sharpness_after": 55.15,
+      "ssim_improvement": 0.6166,
+      "match_before": true,
+      "match_after": true,
+      "matched_identity": "Anamika"
+    },
+    {
+      "filename": "face_006120_02.jpg",
+      "original_size_px": [
+        66,
+        66
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 123.19,
+      "sharpness_after": 10.72,
+      "ssim_improvement": 0.7533,
+      "match_before": true,
+      "match_after": true,
+      "matched_identity": "Harshita"
+    },
+    {
+      "filename": "face_006360_01.jpg",
+      "original_size_px": [
+        81,
+        80
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 142.23,
+      "sharpness_after": 20.54,
+      "ssim_improvement": 0.6462,
+      "match_before": true,
+      "match_after": true,
+      "matched_identity": "AARAV"
+    },
+    {
+      "filename": "face_006360_02.jpg",
+      "original_size_px": [
+        66,
+        66
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 161.52,
+      "sharpness_after": 12.64,
+      "ssim_improvement": 0.7216,
+      "match_before": false,
+      "match_after": true,
+      "matched_identity": "Ranjhana"
+    },
+    {
+      "filename": "face_006360_06.jpg",
+      "original_size_px": [
+        97,
+        97
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 54.16,
+      "sharpness_after": 26.19,
+      "ssim_improvement": 0.6601,
+      "match_before": true,
+      "match_after": true,
+      "matched_identity": "Ranjhana"
+    },
+    {
+      "filename": "face_006360_07.jpg",
+      "original_size_px": [
+        116,
+        115
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 179.36,
+      "sharpness_after": 83.02,
+      "ssim_improvement": 0.6994,
+      "match_before": true,
+      "match_after": true,
+      "matched_identity": "Harshita"
+    },
+    {
+      "filename": "face_006480_00.jpg",
+      "original_size_px": [
+        125,
+        125
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 199.49,
+      "sharpness_after": 147.34,
+      "ssim_improvement": 0.7384,
+      "match_before": true,
+      "match_after": true,
+      "matched_identity": "AARAV"
+    },
+    {
+      "filename": "face_006480_01.jpg",
+      "original_size_px": [
+        73,
+        73
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 38.34,
+      "sharpness_after": 11.48,
+      "ssim_improvement": 0.7466,
+      "match_before": false,
+      "match_after": false,
+      "matched_identity": null
+    },
+    {
+      "filename": "face_006480_02.jpg",
+      "original_size_px": [
+        70,
+        70
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 144.87,
+      "sharpness_after": 14.82,
+      "ssim_improvement": 0.7267,
+      "match_before": true,
+      "match_after": true,
+      "matched_identity": "Mohini"
+    },
+    {
+      "filename": "face_006600_02.jpg",
+      "original_size_px": [
+        65,
+        65
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 177.82,
+      "sharpness_after": 12.3,
+      "ssim_improvement": 0.7205,
+      "match_before": true,
+      "match_after": true,
+      "matched_identity": "Mohini"
+    },
+    {
+      "filename": "face_006840_01.jpg",
+      "original_size_px": [
+        90,
+        90
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 134.29,
+      "sharpness_after": 28.25,
+      "ssim_improvement": 0.7455,
+      "match_before": true,
+      "match_after": true,
+      "matched_identity": "Harshita"
+    },
+    {
+      "filename": "face_006960_05.jpg",
+      "original_size_px": [
+        65,
+        66
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 65.46,
+      "sharpness_after": 10.1,
+      "ssim_improvement": 0.7848,
+      "match_before": true,
+      "match_after": true,
+      "matched_identity": "Harshita"
+    },
+    {
+      "filename": "face_006960_08.jpg",
+      "original_size_px": [
+        116,
+        116
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 98.91,
+      "sharpness_after": 75.1,
+      "ssim_improvement": 0.6416,
+      "match_before": true,
+      "match_after": true,
+      "matched_identity": "AARAV"
+    },
+    {
+      "filename": "face_006960_13.jpg",
+      "original_size_px": [
+        80,
+        80
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 75.62,
+      "sharpness_after": 15.86,
+      "ssim_improvement": 0.6674,
+      "match_before": true,
+      "match_after": true,
+      "matched_identity": "Mohini"
+    },
+    {
+      "filename": "face_007080_00.jpg",
+      "original_size_px": [
+        80,
+        80
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 89.75,
+      "sharpness_after": 18.02,
+      "ssim_improvement": 0.762,
+      "match_before": true,
+      "match_after": true,
+      "matched_identity": "Manav"
     }
   ]
 }
