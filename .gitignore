@@ -4,8 +4,6 @@ venv/
 __pycache__/
 *.pyc
 
-# raw faces
-raw_faces/
 #extract faces
 extract_faces.py
 
