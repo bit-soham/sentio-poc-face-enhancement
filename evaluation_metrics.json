@@ -1,18 +1,18 @@
 {
   "source": "p4_face_enhancement",
   "total_faces_processed": 100,
-  "processing_time_sec": 22.93,
+  "processing_time_sec": 29.52,
   "pipeline_stages_applied": [
     "denoise",
     "clahe",
     "upscale_multistep",
     "zone_sharpen"
   ],
-  "recognition_accuracy_before_pct": 77.0,
-  "recognition_accuracy_after_pct": 86.0,
-  "avg_sharpness_before": 125.78,
-  "avg_sharpness_after": 45.06,
-  "avg_ssim_improvement": 0.683,
+  "recognition_accuracy_before_pct": 76.0,
+  "recognition_accuracy_after_pct": 93.0,
+  "avg_sharpness_before": 6.81,
+  "avg_sharpness_after": 45.62,
+  "avg_ssim_improvement": 0.6863,
   "per_face": [
     {
       "filename": "face_000000_01.jpg",
@@ -24,9 +24,9 @@
         240,
         240
       ],
-      "sharpness_before": 192.03,
+      "sharpness_before": 3.73,
       "sharpness_after": 17.55,
-      "ssim_improvement": 0.7372,
+      "ssim_improvement": 0.743,
       "match_before": false,
       "match_after": true,
       "matched_identity": "Mohini"
@@ -41,9 +41,9 @@
         240,
         240
       ],
-      "sharpness_before": 55.34,
+      "sharpness_before": 3.57,
       "sharpness_after": 22.77,
-      "ssim_improvement": 0.659,
+      "ssim_improvement": 0.6618,
       "match_before": true,
       "match_after": true,
       "matched_identity": "AARAV"
@@ -58,9 +58,9 @@
         240,
         240
       ],
-      "sharpness_before": 91.03,
+      "sharpness_before": 6.1,
       "sharpness_after": 48.29,
-      "ssim_improvement": 0.6701,
+      "ssim_improvement": 0.6757,
       "match_before": true,
       "match_after": true,
       "matched_identity": "Harshita"
@@ -75,9 +75,9 @@
         240,
         240
       ],
-      "sharpness_before": 63.87,
+      "sharpness_before": 5.53,
       "sharpness_after": 39.58,
-      "ssim_improvement": 0.6412,
+      "ssim_improvement": 0.6465,
       "match_before": true,
       "match_after": true,
       "matched_identity": "AARAV"
@@ -92,9 +92,9 @@
         240,
         240
       ],
-      "sharpness_before": 84.46,
+      "sharpness_before": 3.14,
       "sharpness_after": 15.38,
-      "ssim_improvement": 0.7786,
+      "ssim_improvement": 0.7792,
       "match_before": true,
       "match_after": true,
       "matched_identity": "Jahanvi"
@@ -109,9 +109,9 @@
         240,
         240
       ],
-      "sharpness_before": 62.69,
+      "sharpness_before": 3.76,
       "sharpness_after": 25.73,
-      "ssim_improvement": 0.6547,
+      "ssim_improvement": 0.6579,
       "match_before": true,
       "match_after": true,
       "matched_identity": "AARAV"
@@ -126,9 +126,9 @@
         240,
         240
       ],
-      "sharpness_before": 134.82,
+      "sharpness_before": 4.3,
       "sharpness_after": 28.2,
-      "ssim_improvement": 0.6338,
+      "ssim_improvement": 0.6398,
       "match_before": true,
       "match_after": true,
       "matched_identity": "Sushmita"
@@ -143,9 +143,9 @@
         240,
         240
       ],
-      "sharpness_before": 494.85,
+      "sharpness_before": 9.97,
       "sharpness_after": 35.71,
-      "ssim_improvement": 0.807,
+      "ssim_improvement": 0.8123,
       "match_before": true,
       "match_after": true,
       "matched_identity": "AARAV"
@@ -160,12 +160,29 @@
         240,
         240
       ],
-      "sharpness_before": 101.12,
+      "sharpness_before": 2.1,
       "sharpness_after": 11.01,
-      "ssim_improvement": 0.7568,
+      "ssim_improvement": 0.7587,
       "match_before": false,
       "match_after": true,
       "matched_identity": "Ranjhana"
+    },
+    {
+      "filename": "face_000480_04.jpg",
+      "original_size_px": [
+        66,
+        66
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 2.62,
+      "sharpness_after": 11.31,
+      "ssim_improvement": 0.786,
+      "match_before": false,
+      "match_after": true,
+      "matched_identity": "AARAV"
     },
     {
       "filename": "face_000480_06.jpg",
@@ -177,9 +194,9 @@
         240,
         240
       ],
-      "sharpness_before": 65.34,
+      "sharpness_before": 2.77,
       "sharpness_after": 14.23,
-      "ssim_improvement": 0.6541,
+      "ssim_improvement": 0.6573,
       "match_before": true,
       "match_after": true,
       "matched_identity": "Mohini"
@@ -194,9 +211,9 @@
         240,
         240
       ],
-      "sharpness_before": 52.1,
+      "sharpness_before": 3.52,
       "sharpness_after": 20.68,
-      "ssim_improvement": 0.6508,
+      "ssim_improvement": 0.6524,
       "match_before": true,
       "match_after": true,
       "matched_identity": "Manav"
@@ -211,9 +228,9 @@
         240,
         240
       ],
-      "sharpness_before": 34.97,
+      "sharpness_before": 2.71,
       "sharpness_after": 16.38,
-      "ssim_improvement": 0.6669,
+      "ssim_improvement": 0.6686,
       "match_before": true,
       "match_after": true,
       "matched_identity": "Harshita"
@@ -228,9 +245,9 @@
         240,
         240
       ],
-      "sharpness_before": 70.4,
+      "sharpness_before": 4.39,
       "sharpness_after": 31.39,
-      "ssim_improvement": 0.6307,
+      "ssim_improvement": 0.6348,
       "match_before": true,
       "match_after": true,
       "matched_identity": "Mohini"
@@ -245,9 +262,9 @@
         240,
         240
       ],
-      "sharpness_before": 100.75,
+      "sharpness_before": 3.52,
       "sharpness_after": 19.67,
-      "ssim_improvement": 0.7635,
+      "ssim_improvement": 0.7659,
       "match_before": true,
       "match_after": true,
       "matched_identity": "Mohini"
@@ -262,29 +279,12 @@
         240,
         240
       ],
-      "sharpness_before": 85.0,
+      "sharpness_before": 5.38,
       "sharpness_after": 43.08,
-      "ssim_improvement": 0.6134,
+      "ssim_improvement": 0.6171,
       "match_before": true,
       "match_after": true,
       "matched_identity": "Mohini"
-    },
-    {
-      "filename": "face_000840_00.jpg",
-      "original_size_px": [
-        73,
-        73
-      ],
-      "enhanced_size_px": [
-        240,
-        240
-      ],
-      "sharpness_before": 30.91,
-      "sharpness_after": 9.44,
-      "ssim_improvement": 0.7632,
-      "match_before": false,
-      "match_after": false,
-      "matched_identity": null
     },
     {
       "filename": "face_000840_01.jpg",
@@ -296,9 +296,9 @@
         240,
         240
       ],
-      "sharpness_before": 88.83,
+      "sharpness_before": 2.55,
       "sharpness_after": 12.05,
-      "ssim_improvement": 0.7201,
+      "ssim_improvement": 0.7237,
       "match_before": true,
       "match_after": true,
       "matched_identity": "Ranjhana"
@@ -313,9 +313,9 @@
         240,
         240
       ],
-      "sharpness_before": 97.32,
+      "sharpness_before": 4.22,
       "sharpness_after": 28.34,
-      "ssim_improvement": 0.6238,
+      "ssim_improvement": 0.6295,
       "match_before": true,
       "match_after": true,
       "matched_identity": "Harshita"
@@ -330,9 +330,9 @@
         240,
         240
       ],
-      "sharpness_before": 130.53,
+      "sharpness_before": 10.84,
       "sharpness_after": 78.81,
-      "ssim_improvement": 0.6552,
+      "ssim_improvement": 0.6603,
       "match_before": false,
       "match_after": true,
       "matched_identity": "AARAV"
@@ -347,9 +347,9 @@
         240,
         240
       ],
-      "sharpness_before": 135.37,
+      "sharpness_before": 8.99,
       "sharpness_after": 56.07,
-      "ssim_improvement": 0.6039,
+      "ssim_improvement": 0.6082,
       "match_before": true,
       "match_after": true,
       "matched_identity": "AARAV"
@@ -364,29 +364,12 @@
         240,
         240
       ],
-      "sharpness_before": 109.3,
+      "sharpness_before": 6.04,
       "sharpness_after": 44.21,
-      "ssim_improvement": 0.6436,
+      "ssim_improvement": 0.6468,
       "match_before": true,
       "match_after": true,
       "matched_identity": "Ranjhana"
-    },
-    {
-      "filename": "face_001440_04.jpg",
-      "original_size_px": [
-        72,
-        72
-      ],
-      "enhanced_size_px": [
-        240,
-        240
-      ],
-      "sharpness_before": 69.43,
-      "sharpness_after": 11.29,
-      "ssim_improvement": 0.692,
-      "match_before": true,
-      "match_after": false,
-      "matched_identity": null
     },
     {
       "filename": "face_001440_05.jpg",
@@ -398,9 +381,9 @@
         240,
         240
       ],
-      "sharpness_before": 61.39,
+      "sharpness_before": 7.35,
       "sharpness_after": 58.57,
-      "ssim_improvement": 0.5686,
+      "ssim_improvement": 0.5735,
       "match_before": true,
       "match_after": true,
       "matched_identity": "AARAV"
@@ -415,9 +398,9 @@
         240,
         240
       ],
-      "sharpness_before": 85.42,
+      "sharpness_before": 4.02,
       "sharpness_after": 26.6,
-      "ssim_improvement": 0.6321,
+      "ssim_improvement": 0.6369,
       "match_before": true,
       "match_after": true,
       "matched_identity": "Mohini"
@@ -432,9 +415,9 @@
         240,
         240
       ],
-      "sharpness_before": 311.87,
+      "sharpness_before": 37.08,
       "sharpness_after": 238.06,
-      "ssim_improvement": 0.6909,
+      "ssim_improvement": 0.6974,
       "match_before": true,
       "match_after": true,
       "matched_identity": "Anamika"
@@ -449,9 +432,9 @@
         240,
         240
       ],
-      "sharpness_before": 164.06,
+      "sharpness_before": 10.15,
       "sharpness_after": 64.53,
-      "ssim_improvement": 0.6558,
+      "ssim_improvement": 0.6615,
       "match_before": true,
       "match_after": true,
       "matched_identity": "AARAV"
@@ -466,9 +449,9 @@
         240,
         240
       ],
-      "sharpness_before": 42.48,
+      "sharpness_before": 2.63,
       "sharpness_after": 20.2,
-      "ssim_improvement": 0.6442,
+      "ssim_improvement": 0.6466,
       "match_before": true,
       "match_after": true,
       "matched_identity": "Ranjhana"
@@ -483,9 +466,9 @@
         240,
         240
       ],
-      "sharpness_before": 139.11,
+      "sharpness_before": 14.68,
       "sharpness_after": 117.59,
-      "ssim_improvement": 0.6438,
+      "ssim_improvement": 0.6505,
       "match_before": true,
       "match_after": true,
       "matched_identity": "AARAV"
@@ -500,9 +483,9 @@
         240,
         240
       ],
-      "sharpness_before": 77.52,
+      "sharpness_before": 4.91,
       "sharpness_after": 31.13,
-      "ssim_improvement": 0.6793,
+      "ssim_improvement": 0.6817,
       "match_before": true,
       "match_after": true,
       "matched_identity": "AARAV"
@@ -517,9 +500,9 @@
         240,
         240
       ],
-      "sharpness_before": 129.71,
+      "sharpness_before": 4.49,
       "sharpness_after": 29.34,
-      "ssim_improvement": 0.627,
+      "ssim_improvement": 0.6334,
       "match_before": true,
       "match_after": true,
       "matched_identity": "Mohini"
@@ -534,9 +517,9 @@
         240,
         240
       ],
-      "sharpness_before": 155.58,
+      "sharpness_before": 7.54,
       "sharpness_after": 42.98,
-      "ssim_improvement": 0.646,
+      "ssim_improvement": 0.6511,
       "match_before": true,
       "match_after": true,
       "matched_identity": "Anamika"
@@ -551,9 +534,9 @@
         240,
         240
       ],
-      "sharpness_before": 79.19,
+      "sharpness_before": 2.55,
       "sharpness_after": 12.78,
-      "ssim_improvement": 0.676,
+      "ssim_improvement": 0.6789,
       "match_before": false,
       "match_after": false,
       "matched_identity": null
@@ -568,9 +551,9 @@
         240,
         240
       ],
-      "sharpness_before": 168.61,
+      "sharpness_before": 9.49,
       "sharpness_after": 56.63,
-      "ssim_improvement": 0.6378,
+      "ssim_improvement": 0.6433,
       "match_before": true,
       "match_after": true,
       "matched_identity": "Anamika"
@@ -585,9 +568,9 @@
         240,
         240
       ],
-      "sharpness_before": 167.46,
+      "sharpness_before": 5.23,
       "sharpness_after": 33.35,
-      "ssim_improvement": 0.6431,
+      "ssim_improvement": 0.6478,
       "match_before": true,
       "match_after": true,
       "matched_identity": "Harshita"
@@ -602,9 +585,9 @@
         240,
         240
       ],
-      "sharpness_before": 76.0,
+      "sharpness_before": 6.0,
       "sharpness_after": 44.57,
-      "ssim_improvement": 0.6528,
+      "ssim_improvement": 0.6577,
       "match_before": true,
       "match_after": true,
       "matched_identity": "AARAV"
@@ -619,9 +602,9 @@
         240,
         240
       ],
-      "sharpness_before": 60.92,
+      "sharpness_before": 5.0,
       "sharpness_after": 42.82,
-      "ssim_improvement": 0.6458,
+      "ssim_improvement": 0.6499,
       "match_before": true,
       "match_after": true,
       "matched_identity": "Jahanvi"
@@ -636,9 +619,9 @@
         240,
         240
       ],
-      "sharpness_before": 161.88,
+      "sharpness_before": 5.69,
       "sharpness_after": 36.71,
-      "ssim_improvement": 0.6323,
+      "ssim_improvement": 0.6387,
       "match_before": true,
       "match_after": true,
       "matched_identity": "Mohini"
@@ -653,9 +636,9 @@
         240,
         240
       ],
-      "sharpness_before": 98.37,
+      "sharpness_before": 3.63,
       "sharpness_after": 20.57,
-      "ssim_improvement": 0.6997,
+      "ssim_improvement": 0.7032,
       "match_before": false,
       "match_after": false,
       "matched_identity": null
@@ -670,9 +653,9 @@
         240,
         240
       ],
-      "sharpness_before": 73.41,
+      "sharpness_before": 4.25,
       "sharpness_after": 31.91,
-      "ssim_improvement": 0.6707,
+      "ssim_improvement": 0.6743,
       "match_before": true,
       "match_after": true,
       "matched_identity": "Jahanvi"
@@ -687,9 +670,9 @@
         240,
         240
       ],
-      "sharpness_before": 103.37,
+      "sharpness_before": 4.4,
       "sharpness_after": 25.22,
-      "ssim_improvement": 0.686,
+      "ssim_improvement": 0.6898,
       "match_before": false,
       "match_after": true,
       "matched_identity": "AARAV"
@@ -704,29 +687,12 @@
         240,
         240
       ],
-      "sharpness_before": 241.64,
+      "sharpness_before": 5.72,
       "sharpness_after": 30.96,
-      "ssim_improvement": 0.6927,
+      "ssim_improvement": 0.6978,
       "match_before": true,
       "match_after": true,
       "matched_identity": "AARAV"
-    },
-    {
-      "filename": "face_003840_07.jpg",
-      "original_size_px": [
-        66,
-        66
-      ],
-      "enhanced_size_px": [
-        240,
-        240
-      ],
-      "sharpness_before": 52.79,
-      "sharpness_after": 9.93,
-      "ssim_improvement": 0.7248,
-      "match_before": true,
-      "match_after": false,
-      "matched_identity": null
     },
     {
       "filename": "face_003840_08.jpg",
@@ -738,9 +704,9 @@
         240,
         240
       ],
-      "sharpness_before": 70.59,
+      "sharpness_before": 2.77,
       "sharpness_after": 16.41,
-      "ssim_improvement": 0.6415,
+      "ssim_improvement": 0.6437,
       "match_before": true,
       "match_after": true,
       "matched_identity": "Jahanvi"
@@ -755,9 +721,9 @@
         240,
         240
       ],
-      "sharpness_before": 75.46,
+      "sharpness_before": 2.11,
       "sharpness_after": 10.9,
-      "ssim_improvement": 0.7117,
+      "ssim_improvement": 0.7134,
       "match_before": false,
       "match_after": false,
       "matched_identity": null
@@ -772,9 +738,9 @@
         240,
         240
       ],
-      "sharpness_before": 186.41,
+      "sharpness_before": 8.44,
       "sharpness_after": 41.98,
-      "ssim_improvement": 0.6396,
+      "ssim_improvement": 0.6453,
       "match_before": false,
       "match_after": true,
       "matched_identity": "Jahanvi"
@@ -789,9 +755,9 @@
         240,
         240
       ],
-      "sharpness_before": 153.01,
+      "sharpness_before": 2.27,
       "sharpness_after": 21.88,
-      "ssim_improvement": 0.6628,
+      "ssim_improvement": 0.6702,
       "match_before": true,
       "match_after": true,
       "matched_identity": "Rohini"
@@ -806,29 +772,12 @@
         240,
         240
       ],
-      "sharpness_before": 91.36,
+      "sharpness_before": 4.84,
       "sharpness_after": 28.0,
-      "ssim_improvement": 0.6479,
+      "ssim_improvement": 0.6518,
       "match_before": true,
       "match_after": true,
       "matched_identity": "Ranjhana"
-    },
-    {
-      "filename": "face_003840_16.jpg",
-      "original_size_px": [
-        55,
-        55
-      ],
-      "enhanced_size_px": [
-        240,
-        240
-      ],
-      "sharpness_before": 319.84,
-      "sharpness_after": 27.36,
-      "ssim_improvement": 0.6535,
-      "match_before": true,
-      "match_after": false,
-      "matched_identity": null
     },
     {
       "filename": "face_003960_03.jpg",
@@ -840,9 +789,9 @@
         240,
         240
       ],
-      "sharpness_before": 135.0,
+      "sharpness_before": 3.67,
       "sharpness_after": 19.04,
-      "ssim_improvement": 0.6956,
+      "ssim_improvement": 0.6971,
       "match_before": true,
       "match_after": true,
       "matched_identity": "Harshita"
@@ -857,9 +806,9 @@
         240,
         240
       ],
-      "sharpness_before": 142.45,
+      "sharpness_before": 7.35,
       "sharpness_after": 60.32,
-      "ssim_improvement": 0.6742,
+      "ssim_improvement": 0.6804,
       "match_before": true,
       "match_after": true,
       "matched_identity": "AARAV"
@@ -874,29 +823,29 @@
         240,
         240
       ],
-      "sharpness_before": 163.69,
+      "sharpness_before": 5.77,
       "sharpness_after": 36.09,
-      "ssim_improvement": 0.6447,
+      "ssim_improvement": 0.6521,
       "match_before": true,
       "match_after": true,
       "matched_identity": "Harshita"
     },
     {
-      "filename": "face_004080_02.jpg",
+      "filename": "face_004080_03.jpg",
       "original_size_px": [
-        125,
-        125
+        104,
+        104
       ],
       "enhanced_size_px": [
         240,
         240
       ],
-      "sharpness_before": 38.34,
-      "sharpness_after": 49.31,
-      "ssim_improvement": 0.6201,
+      "sharpness_before": 5.95,
+      "sharpness_after": 39.96,
+      "ssim_improvement": 0.6393,
       "match_before": true,
-      "match_after": false,
-      "matched_identity": null
+      "match_after": true,
+      "matched_identity": "Mohini"
     },
     {
       "filename": "face_004080_04.jpg",
@@ -908,9 +857,9 @@
         240,
         240
       ],
-      "sharpness_before": 145.6,
+      "sharpness_before": 3.51,
       "sharpness_after": 14.77,
-      "ssim_improvement": 0.726,
+      "ssim_improvement": 0.7284,
       "match_before": true,
       "match_after": true,
       "matched_identity": "Harshita"
@@ -925,9 +874,9 @@
         240,
         240
       ],
-      "sharpness_before": 297.03,
+      "sharpness_before": 38.56,
       "sharpness_after": 252.99,
-      "ssim_improvement": 0.7131,
+      "ssim_improvement": 0.7204,
       "match_before": true,
       "match_after": true,
       "matched_identity": "Mohini"
@@ -942,9 +891,9 @@
         240,
         240
       ],
-      "sharpness_before": 64.94,
+      "sharpness_before": 2.31,
       "sharpness_after": 12.84,
-      "ssim_improvement": 0.7236,
+      "ssim_improvement": 0.7251,
       "match_before": false,
       "match_after": true,
       "matched_identity": "Mohini"
@@ -959,9 +908,9 @@
         240,
         240
       ],
-      "sharpness_before": 148.93,
+      "sharpness_before": 4.16,
       "sharpness_after": 21.46,
-      "ssim_improvement": 0.6532,
+      "ssim_improvement": 0.6581,
       "match_before": false,
       "match_after": true,
       "matched_identity": "Sparshita"
@@ -976,9 +925,9 @@
         240,
         240
       ],
-      "sharpness_before": 187.7,
+      "sharpness_before": 14.28,
       "sharpness_after": 105.93,
-      "ssim_improvement": 0.6385,
+      "ssim_improvement": 0.6461,
       "match_before": true,
       "match_after": true,
       "matched_identity": "AARAV"
@@ -993,9 +942,9 @@
         240,
         240
       ],
-      "sharpness_before": 54.46,
+      "sharpness_before": 2.6,
       "sharpness_after": 17.0,
-      "ssim_improvement": 0.6797,
+      "ssim_improvement": 0.6819,
       "match_before": true,
       "match_after": true,
       "matched_identity": "Ranjhana"
@@ -1010,9 +959,9 @@
         240,
         240
       ],
-      "sharpness_before": 89.7,
+      "sharpness_before": 5.32,
       "sharpness_after": 36.9,
-      "ssim_improvement": 0.5582,
+      "ssim_improvement": 0.5634,
       "match_before": true,
       "match_after": true,
       "matched_identity": "AARAV"
@@ -1027,9 +976,9 @@
         240,
         240
       ],
-      "sharpness_before": 158.7,
+      "sharpness_before": 12.0,
       "sharpness_after": 89.55,
-      "ssim_improvement": 0.6109,
+      "ssim_improvement": 0.6172,
       "match_before": true,
       "match_after": true,
       "matched_identity": "AARAV"
@@ -1044,29 +993,12 @@
         240,
         240
       ],
-      "sharpness_before": 152.51,
+      "sharpness_before": 8.82,
       "sharpness_after": 60.73,
-      "ssim_improvement": 0.6041,
+      "ssim_improvement": 0.6098,
       "match_before": true,
       "match_after": true,
       "matched_identity": "Anamika"
-    },
-    {
-      "filename": "face_004560_07.jpg",
-      "original_size_px": [
-        72,
-        72
-      ],
-      "enhanced_size_px": [
-        240,
-        240
-      ],
-      "sharpness_before": 47.99,
-      "sharpness_after": 10.56,
-      "ssim_improvement": 0.7092,
-      "match_before": true,
-      "match_after": false,
-      "matched_identity": null
     },
     {
       "filename": "face_004680_04.jpg",
@@ -1078,9 +1010,9 @@
         240,
         240
       ],
-      "sharpness_before": 109.43,
+      "sharpness_before": 7.38,
       "sharpness_after": 48.37,
-      "ssim_improvement": 0.6439,
+      "ssim_improvement": 0.6487,
       "match_before": true,
       "match_after": true,
       "matched_identity": "Mohini"
@@ -1095,9 +1027,9 @@
         240,
         240
       ],
-      "sharpness_before": 37.55,
+      "sharpness_before": 2.11,
       "sharpness_after": 11.33,
-      "ssim_improvement": 0.7325,
+      "ssim_improvement": 0.7333,
       "match_before": false,
       "match_after": true,
       "matched_identity": "Ranjhana"
@@ -1112,9 +1044,9 @@
         240,
         240
       ],
-      "sharpness_before": 94.27,
+      "sharpness_before": 3.49,
       "sharpness_after": 20.57,
-      "ssim_improvement": 0.6783,
+      "ssim_improvement": 0.6814,
       "match_before": true,
       "match_after": true,
       "matched_identity": "Anamika"
@@ -1129,9 +1061,9 @@
         240,
         240
       ],
-      "sharpness_before": 122.47,
+      "sharpness_before": 4.18,
       "sharpness_after": 26.18,
-      "ssim_improvement": 0.6832,
+      "ssim_improvement": 0.6874,
       "match_before": true,
       "match_after": true,
       "matched_identity": "AARAV"
@@ -1146,9 +1078,9 @@
         240,
         240
       ],
-      "sharpness_before": 207.67,
+      "sharpness_before": 22.02,
       "sharpness_after": 159.89,
-      "ssim_improvement": 0.7096,
+      "ssim_improvement": 0.7158,
       "match_before": true,
       "match_after": true,
       "matched_identity": "Anamika"
@@ -1163,9 +1095,9 @@
         240,
         240
       ],
-      "sharpness_before": 215.91,
+      "sharpness_before": 26.76,
       "sharpness_after": 198.46,
-      "ssim_improvement": 0.7162,
+      "ssim_improvement": 0.7226,
       "match_before": false,
       "match_after": true,
       "matched_identity": "Anamika"
@@ -1180,9 +1112,9 @@
         240,
         240
       ],
-      "sharpness_before": 21.78,
+      "sharpness_before": 1.85,
       "sharpness_after": 9.96,
-      "ssim_improvement": 0.7121,
+      "ssim_improvement": 0.7133,
       "match_before": false,
       "match_after": false,
       "matched_identity": null
@@ -1197,9 +1129,9 @@
         240,
         240
       ],
-      "sharpness_before": 203.49,
+      "sharpness_before": 50.61,
       "sharpness_after": 462.05,
-      "ssim_improvement": 0.7191,
+      "ssim_improvement": 0.726,
       "match_before": true,
       "match_after": true,
       "matched_identity": "AARAV"
@@ -1214,29 +1146,12 @@
         240,
         240
       ],
-      "sharpness_before": 90.68,
+      "sharpness_before": 7.07,
       "sharpness_after": 49.35,
-      "ssim_improvement": 0.5926,
+      "ssim_improvement": 0.5969,
       "match_before": true,
       "match_after": true,
       "matched_identity": "Rohini"
-    },
-    {
-      "filename": "face_005640_04.jpg",
-      "original_size_px": [
-        66,
-        66
-      ],
-      "enhanced_size_px": [
-        240,
-        240
-      ],
-      "sharpness_before": 287.08,
-      "sharpness_after": 14.12,
-      "ssim_improvement": 0.771,
-      "match_before": true,
-      "match_after": false,
-      "matched_identity": null
     },
     {
       "filename": "face_005640_05.jpg",
@@ -1248,9 +1163,9 @@
         240,
         240
       ],
-      "sharpness_before": 162.14,
+      "sharpness_before": 3.09,
       "sharpness_after": 13.77,
-      "ssim_improvement": 0.7268,
+      "ssim_improvement": 0.7302,
       "match_before": true,
       "match_after": true,
       "matched_identity": "Mohini"
@@ -1265,9 +1180,9 @@
         240,
         240
       ],
-      "sharpness_before": 77.57,
+      "sharpness_before": 2.67,
       "sharpness_after": 15.68,
-      "ssim_improvement": 0.6897,
+      "ssim_improvement": 0.6917,
       "match_before": true,
       "match_after": true,
       "matched_identity": "Harshita"
@@ -1282,9 +1197,9 @@
         240,
         240
       ],
-      "sharpness_before": 203.16,
+      "sharpness_before": 2.99,
       "sharpness_after": 12.11,
-      "ssim_improvement": 0.7567,
+      "ssim_improvement": 0.7586,
       "match_before": false,
       "match_after": true,
       "matched_identity": "Ranjhana"
@@ -1299,9 +1214,9 @@
         240,
         240
       ],
-      "sharpness_before": 158.51,
+      "sharpness_before": 2.9,
       "sharpness_after": 11.81,
-      "ssim_improvement": 0.7529,
+      "ssim_improvement": 0.7546,
       "match_before": false,
       "match_after": true,
       "matched_identity": "AARAV"
@@ -1316,12 +1231,80 @@
         240,
         240
       ],
-      "sharpness_before": 118.88,
+      "sharpness_before": 5.84,
       "sharpness_after": 35.62,
-      "ssim_improvement": 0.6834,
+      "ssim_improvement": 0.6879,
       "match_before": true,
       "match_after": true,
       "matched_identity": "Ranjhana"
+    },
+    {
+      "filename": "face_005880_02.jpg",
+      "original_size_px": [
+        80,
+        80
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 3.12,
+      "sharpness_after": 18.11,
+      "ssim_improvement": 0.6561,
+      "match_before": true,
+      "match_after": true,
+      "matched_identity": "Anamika"
+    },
+    {
+      "filename": "face_005880_03.jpg",
+      "original_size_px": [
+        96,
+        96
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 9.01,
+      "sharpness_after": 54.25,
+      "ssim_improvement": 0.7295,
+      "match_before": true,
+      "match_after": true,
+      "matched_identity": "Anamika"
+    },
+    {
+      "filename": "face_005880_04.jpg",
+      "original_size_px": [
+        80,
+        80
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 2.7,
+      "sharpness_after": 15.38,
+      "ssim_improvement": 0.6653,
+      "match_before": true,
+      "match_after": true,
+      "matched_identity": "AARAV"
+    },
+    {
+      "filename": "face_005880_05.jpg",
+      "original_size_px": [
+        66,
+        66
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 3.23,
+      "sharpness_after": 12.99,
+      "ssim_improvement": 0.7546,
+      "match_before": true,
+      "match_after": true,
+      "matched_identity": "Anamika"
     },
     {
       "filename": "face_005880_06.jpg",
@@ -1333,9 +1316,9 @@
         240,
         240
       ],
-      "sharpness_before": 298.86,
+      "sharpness_before": 2.8,
       "sharpness_after": 25.3,
-      "ssim_improvement": 0.6884,
+      "ssim_improvement": 0.6988,
       "match_before": false,
       "match_after": true,
       "matched_identity": "AARAV"
@@ -1350,9 +1333,9 @@
         240,
         240
       ],
-      "sharpness_before": 113.56,
+      "sharpness_before": 2.67,
       "sharpness_after": 11.1,
-      "ssim_improvement": 0.7729,
+      "ssim_improvement": 0.7746,
       "match_before": false,
       "match_after": true,
       "matched_identity": "AARAV"
@@ -1367,9 +1350,9 @@
         240,
         240
       ],
-      "sharpness_before": 274.31,
+      "sharpness_before": 20.15,
       "sharpness_after": 137.05,
-      "ssim_improvement": 0.7496,
+      "ssim_improvement": 0.7554,
       "match_before": false,
       "match_after": true,
       "matched_identity": "AARAV"
@@ -1384,9 +1367,9 @@
         240,
         240
       ],
-      "sharpness_before": 115.81,
+      "sharpness_before": 4.04,
       "sharpness_after": 23.2,
-      "ssim_improvement": 0.765,
+      "ssim_improvement": 0.7687,
       "match_before": true,
       "match_after": true,
       "matched_identity": "Manav"
@@ -1401,9 +1384,9 @@
         240,
         240
       ],
-      "sharpness_before": 102.94,
+      "sharpness_before": 8.8,
       "sharpness_after": 55.7,
-      "ssim_improvement": 0.6609,
+      "ssim_improvement": 0.6661,
       "match_before": true,
       "match_after": true,
       "matched_identity": "Harshita"
@@ -1418,9 +1401,9 @@
         240,
         240
       ],
-      "sharpness_before": 42.46,
+      "sharpness_before": 1.99,
       "sharpness_after": 10.9,
-      "ssim_improvement": 0.7445,
+      "ssim_improvement": 0.7456,
       "match_before": false,
       "match_after": false,
       "matched_identity": null
@@ -1435,9 +1418,9 @@
         240,
         240
       ],
-      "sharpness_before": 128.9,
+      "sharpness_before": 8.0,
       "sharpness_after": 61.49,
-      "ssim_improvement": 0.6092,
+      "ssim_improvement": 0.6144,
       "match_before": true,
       "match_after": true,
       "matched_identity": "Anamika"
@@ -1452,9 +1435,9 @@
         240,
         240
       ],
-      "sharpness_before": 53.86,
+      "sharpness_before": 2.13,
       "sharpness_after": 12.49,
-      "ssim_improvement": 0.7287,
+      "ssim_improvement": 0.7301,
       "match_before": false,
       "match_after": false,
       "matched_identity": null
@@ -1469,9 +1452,9 @@
         240,
         240
       ],
-      "sharpness_before": 127.0,
+      "sharpness_before": 6.87,
       "sharpness_after": 55.15,
-      "ssim_improvement": 0.6166,
+      "ssim_improvement": 0.6218,
       "match_before": true,
       "match_after": true,
       "matched_identity": "Anamika"
@@ -1486,9 +1469,9 @@
         240,
         240
       ],
-      "sharpness_before": 123.19,
+      "sharpness_before": 2.6,
       "sharpness_after": 10.72,
-      "ssim_improvement": 0.7533,
+      "ssim_improvement": 0.7554,
       "match_before": true,
       "match_after": true,
       "matched_identity": "Harshita"
@@ -1503,9 +1486,9 @@
         240,
         240
       ],
-      "sharpness_before": 142.23,
+      "sharpness_before": 3.76,
       "sharpness_after": 20.54,
-      "ssim_improvement": 0.6462,
+      "ssim_improvement": 0.6497,
       "match_before": true,
       "match_after": true,
       "matched_identity": "AARAV"
@@ -1520,9 +1503,9 @@
         240,
         240
       ],
-      "sharpness_before": 161.52,
+      "sharpness_before": 3.17,
       "sharpness_after": 12.64,
-      "ssim_improvement": 0.7216,
+      "ssim_improvement": 0.7253,
       "match_before": false,
       "match_after": true,
       "matched_identity": "Ranjhana"
@@ -1537,9 +1520,9 @@
         240,
         240
       ],
-      "sharpness_before": 54.16,
+      "sharpness_before": 3.54,
       "sharpness_after": 26.19,
-      "ssim_improvement": 0.6601,
+      "ssim_improvement": 0.6623,
       "match_before": true,
       "match_after": true,
       "matched_identity": "Ranjhana"
@@ -1554,9 +1537,9 @@
         240,
         240
       ],
-      "sharpness_before": 179.36,
+      "sharpness_before": 13.91,
       "sharpness_after": 83.02,
-      "ssim_improvement": 0.6994,
+      "ssim_improvement": 0.7049,
       "match_before": true,
       "match_after": true,
       "matched_identity": "Harshita"
@@ -1571,9 +1554,9 @@
         240,
         240
       ],
-      "sharpness_before": 199.49,
+      "sharpness_before": 20.31,
       "sharpness_after": 147.34,
-      "ssim_improvement": 0.7384,
+      "ssim_improvement": 0.744,
       "match_before": true,
       "match_after": true,
       "matched_identity": "AARAV"
@@ -1588,9 +1571,9 @@
         240,
         240
       ],
-      "sharpness_before": 38.34,
+      "sharpness_before": 2.07,
       "sharpness_after": 11.48,
-      "ssim_improvement": 0.7466,
+      "ssim_improvement": 0.7474,
       "match_before": false,
       "match_after": false,
       "matched_identity": null
@@ -1605,9 +1588,9 @@
         240,
         240
       ],
-      "sharpness_before": 144.87,
+      "sharpness_before": 3.02,
       "sharpness_after": 14.82,
-      "ssim_improvement": 0.7267,
+      "ssim_improvement": 0.7277,
       "match_before": true,
       "match_after": true,
       "matched_identity": "Mohini"
@@ -1622,9 +1605,9 @@
         240,
         240
       ],
-      "sharpness_before": 177.82,
+      "sharpness_before": 2.94,
       "sharpness_after": 12.3,
-      "ssim_improvement": 0.7205,
+      "ssim_improvement": 0.7238,
       "match_before": true,
       "match_after": true,
       "matched_identity": "Mohini"
@@ -1639,9 +1622,9 @@
         240,
         240
       ],
-      "sharpness_before": 134.29,
+      "sharpness_before": 5.36,
       "sharpness_after": 28.25,
-      "ssim_improvement": 0.7455,
+      "ssim_improvement": 0.7483,
       "match_before": true,
       "match_after": true,
       "matched_identity": "Harshita"
@@ -1656,9 +1639,9 @@
         240,
         240
       ],
-      "sharpness_before": 65.46,
+      "sharpness_before": 2.1,
       "sharpness_after": 10.1,
-      "ssim_improvement": 0.7848,
+      "ssim_improvement": 0.7853,
       "match_before": true,
       "match_after": true,
       "matched_identity": "Harshita"
@@ -1673,12 +1656,29 @@
         240,
         240
       ],
-      "sharpness_before": 98.91,
+      "sharpness_before": 8.65,
       "sharpness_after": 75.1,
-      "ssim_improvement": 0.6416,
+      "ssim_improvement": 0.646,
       "match_before": true,
       "match_after": true,
       "matched_identity": "AARAV"
+    },
+    {
+      "filename": "face_006960_12.jpg",
+      "original_size_px": [
+        81,
+        80
+      ],
+      "enhanced_size_px": [
+        240,
+        240
+      ],
+      "sharpness_before": 5.88,
+      "sharpness_after": 35.21,
+      "ssim_improvement": 0.6652,
+      "match_before": false,
+      "match_after": true,
+      "matched_identity": "Rohini"
     },
     {
       "filename": "face_006960_13.jpg",
@@ -1690,9 +1690,9 @@
         240,
         240
       ],
-      "sharpness_before": 75.62,
+      "sharpness_before": 2.8,
       "sharpness_after": 15.86,
-      "ssim_improvement": 0.6674,
+      "ssim_improvement": 0.6687,
       "match_before": true,
       "match_after": true,
       "matched_identity": "Mohini"
@@ -1707,9 +1707,9 @@
         240,
         240
       ],
-      "sharpness_before": 89.75,
+      "sharpness_before": 3.15,
       "sharpness_after": 18.02,
-      "ssim_improvement": 0.762,
+      "ssim_improvement": 0.7635,
       "match_before": true,
       "match_after": true,
       "matched_identity": "Manav"

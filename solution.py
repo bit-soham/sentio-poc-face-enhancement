@@ -176,9 +176,16 @@ def process_face_job(job):
         enhanced = enhance_face(raw.copy())
         cv2.imwrite(str(ENHANCED_DIR / fp.name), enhanced, [cv2.IMWRITE_JPEG_QUALITY, 95])
 
-        sharp_b = sharpness(raw)
+        # Sharpness must be measured at the same scale.
+        # raw is 12-80px; enhanced is 240x240. Laplacian variance is
+        # scale-dependent: a 20px noisy crop scores ~40000 while the same
+        # content Lanczos-resized to 240px scores ~5 — an artificial 7000x
+        # difference that makes every enhanced image look less sharp.
+        # Fix: resize raw to TARGET_SIZE as the naive baseline first.
+        raw_at_target = cv2.resize(raw, TARGET_SIZE, interpolation=cv2.INTER_LANCZOS4)
+        sharp_b = sharpness(raw_at_target)
         sharp_a = sharpness(enhanced)
-        ssim_g = ssim_score(cv2.resize(raw, TARGET_SIZE), enhanced)
+        ssim_g = ssim_score(raw_at_target, enhanced)
 
         enc_raw = get_face_encoding(raw)
         enc_enh = get_face_encoding(enhanced)
@@ -196,7 +203,7 @@ def process_face_job(job):
                 if match_a:
                     mid = ref_names[hits.index(True)] if ref_names else None
 
-        _, rb = cv2.imencode(".jpg", cv2.resize(raw, TARGET_SIZE), [cv2.IMWRITE_JPEG_QUALITY, 82])
+        _, rb = cv2.imencode(".jpg", raw_at_target, [cv2.IMWRITE_JPEG_QUALITY, 82])
         _, eb = cv2.imencode(".jpg", enhanced, [cv2.IMWRITE_JPEG_QUALITY, 82])
 
         return {
