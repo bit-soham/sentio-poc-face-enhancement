@@ -14,3 +14,7 @@ video/
 # IDE
 .vscode/
 .idea/
+
+# local files 
+face_enhancement.json
+face_enhancement.py
