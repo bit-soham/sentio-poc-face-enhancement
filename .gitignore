@@ -3,12 +3,14 @@
 venv/
 __pycache__/
 *.pyc
+test_env/
 
 #extract faces
 extract_faces.py
 
 # video
 video/
+
 # IDE
 .vscode/
 .idea/

@@ -1,0 +1,9 @@
+# python 3.12 without cmake
+mediapipe==0.10.14
+numpy==1.26.4 
+scikit-image==0.22.0
+dlib-bin # i cmake use dlib, but it is not available for python 3.12, so I use dlib-bin which is a precompiled version of dlib
+setuptools==70.0.0
+opencv-python==4.9.0.80
+Pillow==10.3.0
+#  pip install face_recognition --no-deps # if cmake is available, you can use face_recognition --no-deps to install face_recognition without installing dlib, but it is not available for python 3.12, so I use dlib-bin which is a precompiled version of dlib
